@@ -12,3 +12,13 @@ Foram utilizados no densenvolvimento funções, laços de repetição, operadore
 O maior desafio deste projeto foi implementar o algoritmo que faz com que o computador ganhe todas as partidas.
 
 Quer jogar? Acesso o link https://replit.com/@ricarduvieira/jogo-nim 
+
+TECNOLOGIAS DO PROJETO
+
+Python
+
+Replit
+
+Git
+
+Github
