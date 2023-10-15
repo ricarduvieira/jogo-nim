@@ -2,7 +2,7 @@ Escopo
 
 1 - partida
 	usuario escolhes parametros do jogo *
-	algoritmo escolha de quem vai iniciar a partida
+	quem vai iniciar a partida
 	jogada do pc
 	jogada do usuario
 	validador de jogada invalida
@@ -14,7 +14,6 @@ Escopo
 	escolher entre partida ou campeonato
 	contagem de partida e placar
 	Placar final do campeonato
-
 
 
 
