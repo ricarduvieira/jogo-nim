@@ -15,6 +15,7 @@ def parametros_do_jogo():
             input("\nLimite de peças por jogada? "))
 
 
+
 def quem_comeca():
     calcular_multiplicidade = total_inicial_de_pecas % (
         limite_de_pecas_por_jogada + 1)
@@ -35,10 +36,10 @@ def computador_joga(saldo, jogada):
 
 
 def usuario_joga():  # criar validador de input de string
-    jogada = int(input("\nquantas peças você vai tirar? "))
+    jogada = int(input("\nQuantas peças você vai tirar? "))
     while jogada > limite_de_pecas_por_jogada or jogada < 1:
         print("\nOops! Jogada inválida! Tente de novo.")
-        jogada = int(input("\nquantas peças você vai tirar? "))
+        jogada = int(input("\nQuantas peças você vai tirar? "))
     return jogada
 
 
@@ -124,7 +125,7 @@ def main():
     escolha = 0
     while escolha != 1 and escolha != 2:
         escolha = int(
-            input("\n1 - para jogar uma partida isolada \n2 - para jogar um campeonato! \n"))
+            input("\n1 - Para jogar uma partida isolada \n2 - Para jogar um campeonato! \n"))
         if escolha == 1:
             print("\nVoce escolheu uma partida isolada!")
             partida()
@@ -132,6 +133,18 @@ def main():
             print("\nVoce escolheu um campeonato!")
             campeonato()
         if escolha != 1 and escolha != 2:
+            print("\nOpção invalida!")
+    
+    reinicio = 0
+    while reinicio != 1 and reinicio != 2:
+        reinicio = int(input("\nQuer jogar novamente? \n\n1 - Sim \n2 - Não \n"))
+        if reinicio == 1:
+            print("\nVoce escolheu jogar novamente!")
+            main()
+        if reinicio == 2:
+            print("\nVoce escolheu encerrar o jogo. Até logo!")
+            exit()
+        if reinicio != 1 and escolha != 2:
             print("\nOpção invalida!")
 
 
