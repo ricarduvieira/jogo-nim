@@ -1,5 +1,4 @@
-# jogo-nim
-
+# JOGO NIM
 
 https://github.com/ricarduvieira/jogo-nim/assets/102393137/40ae2b9c-2e7f-446d-9a55-2bf6ba9458b5
 
